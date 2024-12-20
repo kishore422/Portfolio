@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Showcase</title>
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/photography.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">Kishore</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+        </nav>
+    </header>
+
+    <!-- Photography Showcase Section -->
+    <section class="photography">
+        <h2 class="heading">Photography <span>Showcase</span></h2>
+        <div class="gallery-container">
+            <!-- JavaScript will dynamically populate this area -->
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/photography.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Kishore</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Sai Kishore</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="FullStack Developer">FullStack Developer</span>
+                <span style="--i:3;" data-text="Data Engineer">Data Engineer</span>
+                <span style="--i:2;" data-text="AI/ML Engineer">AI/ML Engineer</span>
+                <span style="--i:1;" data-text="UI/UX Game Architect">UI/UX Game Architect</span>
+            </h2>
+
+            <p>I’m a Full Stack Developer, AI/ML Engineer, and Data Engineer with a passion for building intelligent systems that turn caffeine into code, and creating innovative solution because, let’s face it, even AI needs a human touch (and a debug or two)!</p>
+            <p>Beyond that, I’m fueled by a love for developing sleek mobile apps, debugging iOS and Android software, designing captivating UI/UX experiences, and creating immersive games that turn imagination into reality.</p>
+
+            <div class="btn-sci">
+                <!-- Download Resume Button -->
+                <a href="documents/resume.pdf" class="btn" download="Sai_Kishore_Resume.pdf">Download CV</a>
+            </div>
+
+            <p></p>
+
+            <div class="btn-sci">
+                <div class="sci">
+                    <!-- GitHub -->
+                    <a href="https://github.com/kishore422" target="_blank"><i class='bx bxl-github'></i></a>
+                    <!-- LeetCode -->
+                    <a href="https://leetcode.com/u/Kishore422/" target="_blank"><i class='bx bx-code-alt'></i></a>
+                    <!-- CodePen -->
+                    <a href="https://codepen.io/SAI-KISHORE-BHADRAGIRI" target="_blank"><i class='bx bxl-codepen'></i></a>
+                    <!-- Hackerrank -->
+                    <a href="https://www.hackerrank.com/profile/saikishore_bhad1" target="_blank"><i class='bx bx-terminal'></i></a>
+                </div>
+
+                <div class="sci">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/saikishore422/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <!-- Discord -->
+                    <a href="https://discord.com/invite/JUPKpU39" target="_blank"><i class='bx bxl-discord'></i></a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/kishore_imperio?igsh=eTVobmR6NTR1ZGJh&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <!-- X (Twitter) -->
+                    <a href="https://x.com/bhadragiri04" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/home.png">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+<!-- services section -->
+<section class="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        
+        <div class="services-box">
+            <div class="icon">  
+                <i class='bx bx-code'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Web Development</h3>
+            <p>Building responsive and user-friendly websites using modern technologies to enhance functionality and user experience. Ensuring scalable solutions for personal or business needs.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-pencil'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive and visually appealing interfaces focused on enhancing user experience through research, wireframes, and prototypes that align with client goals.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-joystick'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Game Developer</h3>
+            <p>Creating immersive and engaging games with strong mechanics, performance optimization, and captivating visuals to deliver outstanding gaming experiences.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-data'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Data Engineer</h3>
+            <p>Developing robust data pipelines and systems to manage, process, and analyze data efficiently, empowering businesses to make informed decisions.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-brain'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>AI/ML Engineer</h3>
+            <p>Designing intelligent AI solutions and machine learning models to solve complex problems, leveraging cutting-edge tools and frameworks.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-camera'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Photography</h3>
+            <p>Capturing moments and stories through exceptional photography, specializing in portraits, landscapes, and events with attention to detail and creativity.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-chalkboard'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Educator</h3>
+            <p>Delivering impactful lessons and mentorship to inspire and guide learners, using effective teaching methods to foster knowledge and growth.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-film'></i>
+                <a href="Cinematic Storyteller.html"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Cinematic Storyteller</h3>
+            <p>Crafting compelling narratives for movies and visual media, focusing on storytelling, character development, and engaging scripts that bring ideas to life.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-line-chart'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>StockMarket Strategist</h3>
+            <p>Providing expert insights and strategies for trading and investments, helping clients navigate the financial markets with precision and confidence.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">I have a startup idea I’m passionate about and plan to implement in the future. For now, I’m focused on gaining the experience and skills needed to drive my career and turn my vision into reality.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">This is my resume, where you can explore detailed information about my skills, experience, education, and professional journey. Dive in to learn more about my expertise and the value I can bring to your team or project.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - Present</p>
+                            <h3>Tech Support</h3>
+                            <p class="company">University of Houston - Clearlake</p>
+                            <p>The University of Houston is a large public research university.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Systems Engineer</h3>
+                            <p class="company">Infosys Limited</p>
+                            <p>Infosys is a major player in the IT services industry.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Project Engineer</h3>
+                            <p class="company">Wipro Limited</p>
+                            <p>Wipro is a global IT and consulting company.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>Data Engineer</h3>
+                            <p class="company">Finiglobe Techno</p>
+                            <p>Finiglobe Techno is an IT consulting firm.</p>
+                        </div>
+                        <!-- <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>UI/UX Designer</h3>
+                            <p class="company">Abc Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018 - 2019</p>
+                            <h3>Junior Developer</h3>
+                            <p class="company">Xyz Corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dignissimos.</p>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">This is my resume, where you can explore detailed information about my skills, experience, education, and professional journey. Dive in to learn more about my expertise and the value I can bring to your team or project.</p>
+                    <div class="resume-list">
+
+                        <!-- <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Programming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Web Development Bootcamp</h3>
+                            <p class="company">Online Course Platform</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Certified Web Development</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2017 - 2018</p>
+                            <h3>Doctor of Engineering</h3>
+                            <p class="company">Codehal University</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, harum.</p>
+                        </div> -->
+
+                        <div class="resume-item">
+                            <p class="year">2024 - Present</p>
+                            <h3>PostGraduate Program</h3>
+                            <p class="company">TEXAS A&M</p>
+                            <p>Online Course: Certified AI/ML Development</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023 - 2024</p>
+                            <h3>Master's Degree</h3>
+                            <p class="company">University of Houston - Clear Lake</p>
+                            <p>Course: Computer Software and Engineering (CSE)</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018 - 2022</p>
+                            <h3>Bachelor's Degree</h3>
+                            <p class="company">JNTUK - Lendi Engineering College</p>
+                            <p>Course: Electronics and Communication Engineering (ECE)</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">
+                        This is my resume, where you can explore detailed information about my skills, experience, education, and professional journey. Dive in to learn more about my expertise and the value I can bring to your team or project.
+                    </p>
+                
+                    <div class="resume-item">
+                        <h3>Web Technical Stack</h3>
+                        <br>
+                        <div class="technical-details">
+                            <p class="company"><strong>Programming Languages & Frameworks:</strong> .NET, Angular, React, Node.js, C, Java Core, Django, JavaScript, Python, TypeScript, Vue.js, HTML5, CSS, Spring Boot, DSA</p>
+                            <p class="company"><strong>Cloud, DevOps & Big Data:</strong> AWS, Apache Spark, Azure, Docker, Kubernetes, Jenkins, REST APIs, Back-End & Front-End Web Development, Full-Stack Development</p>
+                            <p class="company"><strong>Databases:</strong> PSQL, SQL, MySQL, MongoDB, Oracle, DBMS</p>
+                            <p class="company"><strong>Data Science & Machine Learning:</strong> Data Analysis, Deep Learning, AI/ML, TensorFlow/Keras, MATLAB, Microsoft Power BI, Tableau</p>
+                            <p class="company"><strong>Software Development, Testing & Project Management:</strong> API Testing, Agile, CRM, Cucumber, Debugging, Gherkin, GitHub, Jest, Jira, TestNG, Selenium, MS Office</p>
+                        </div>
+                    </div>
+                
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-vuejs'></i>
+                            <span>Vue.js</span>
+                        </div>
+
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs'></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb'></i>
+                            <span>MongoDB</span>
+                        </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-aws'></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-microsoft'></i>
+                                <span>Azure</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-docker'></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-kubernetes'></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-code-curly'></i>
+                                <span>Back-End & Front-End Web Development</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-analyse'></i>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-brain'></i>
+                                <span>AI/ML</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-cube-alt'></i>
+                                <span>TensorFlow/Keras</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-microsoft'></i>
+                                <span>Microsoft Power BI</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-pie-chart-alt-2'></i>
+                                <span>Tableau</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-bug'></i>
+                                <span>Debugging</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bx-text'></i>
+                                <span>Gherkin</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-github'></i>
+                                <span>GitHub</span>
+                            </div>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <br>
+                        <h3>Game Developer</h3>
+                        <br>
+                        <div class="technical-details">
+                            <p class="company"><strong>Game Engines:</strong> Unity, Unreal Engine, Godot</p>
+                            <p class="company"><strong>Programming Languages:</strong> C#, C++, Python</p>
+                            <p class="company"><strong>Design Tools:</strong> Blender, Maya, Photoshop</p>
+                            <p class="company"><strong>Version Control:</strong> Git</p>
+                            <p class="company"><strong>Audio Tools:</strong> FMOD, Audacity</p>
+                            <p class="company"><strong>Testing & Debugging:</strong> Visual Studio, Rider</p>
+                        </div>
+                    </div>
+    
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <i class='bx bxl-unity'></i>
+                        <span>Unity</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-python'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-blender'></i>
+                        <span>Blender</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-git'></i>
+                        <span>Git (GitHub, GitLab, Bitbucket)</span>
+                    </div>
+                </div>                
+    
+                    <div class="resume-item">
+                        <br>
+                        <h3>Data Engineer</h3>
+                        <br>
+                        <div class="technical-details">
+                            <p class="company"><strong>Data Warehousing:</strong> Snowflake, Amazon Redshift, Google BigQuery</p>
+                            <p class="company"><strong>ETL Tools:</strong> Apache Airflow, Informatica, Talend</p>
+                            <p class="company"><strong>Big Data Frameworks:</strong> Apache Spark, Hadoop, Kafka</p>
+                            <p class="company"><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Cassandra</p>
+                            <p class="company"><strong>Programming Languages:</strong> Python, Scala, SQL</p>
+                            <p class="company"><strong>Cloud Platforms:</strong> AWS, GCP, Azure</p>
+                            <p class="company"><strong>Data Visualization:</strong> Tableau, Power BI, Apache Superset</p>
+                        </div>
+                    </div>
+                
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <i class='bx bxl-aws'></i>
+                        <span>Amazon Redshift</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-google'></i>
+                        <span>Google BigQuery</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-postgresql'></i>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-mongodb'></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-python'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-aws'></i>
+                        <span>AWS</span>
+                    </div>
+                </div>                
+    
+                    <div class="resume-item">
+                        <br>
+                        <h3>AI/ML Engineer</h3>
+                        <br>
+                        <div class="technical-details">
+                            <p class="company"><strong>Programming Languages:</strong> Python, R, C++</p>
+                            <p class="company"><strong>Libraries & Frameworks:</strong> TensorFlow, PyTorch, Scikit-learn, Keras</p>
+                            <p class="company"><strong>Data Processing:</strong> Pandas, NumPy, Dask</p>
+                            <p class="company"><strong>Big Data Tools:</strong> Hadoop, Spark MLlib</p>
+                            <p class="company"><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</p>
+                            <p class="company"><strong>Cloud Platforms:</strong> AWS Sagemaker, Google AI Platform, Azure ML</p>
+                            <p class="company"><strong>Deployment & MLOps:</strong> Docker, Kubernetes, MLflow</p>
+                        </div>
+                    </div>
+    
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <i class='bx bxl-python'></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-docker'></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-kubernetes'></i>
+                        <span>Kubernetes</span>
+                    </div>
+                </div>                
+    
+                    <div class="resume-item">
+                        <br>
+                        <h3>UI/UX Designer</h3>
+                        <br>
+                        <div class="technical-details">
+                            <p class="company"><strong>Design Tools:</strong> Figma, Adobe XD, Sketch</p>
+                            <p class="company"><strong>Graphic Design:</strong> Photoshop, Illustrator, Canva</p>
+                            <p class="company"><strong>Prototyping & Animation:</strong> ProtoPie, Framer, Principle</p>
+                            <p class="company"><strong>User Testing:</strong> Maze, UsabilityHub, Hotjar</p>
+                            <p class="company"><strong>Wireframing:</strong> Balsamiq, Axure RP</p>
+                            <p class="company"><strong>Version Control:</strong> Abstract</p>
+                            <p class="company"><strong>Collaboration:</strong> Slack, Trello</p>
+                        </div>
+                    </div>
+    
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <i class='bx bxl-figma'></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-adobe'></i>
+                        <span>Adobe XD</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-sketch'></i>
+                        <span>Sketch</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-invision'></i>
+                        <span>InVision</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-slack'></i>
+                        <span>Slack</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-trello'></i>
+                        <span>Trello</span>
+                    </div>
+                </div>
+            </div>               
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">This is my resume, where you can explore detailed information about my skills, experience, education, and professional journey. Dive in to learn more about my expertise and the value I can bring to your team or project.</p>
+                    <div class="resume-list">
+                    
+
+                    </div>
+                    <div class="resume-item">
+                        <p>Name <span>Sai Kishore Bhadragiri</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Location <span>Houston, Texas, USA</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Gender <span>Male | 24 Years</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Experience <span>5+ Years</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Full-Time <span>Available</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Freelance <span>Available</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Phone <span>(+1) 346 400 7361</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Email <span>saikishore.bhadragiri04@gmail.com</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Languages <span>English, Hindi, Telugu</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Hobbies <span>Photography, Story Writing, Drawing, Cricket</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Philosophy: <span>"Innovating today for a smarter tomorrow."</span></p>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, React.js, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>React.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, AngularJS, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>Vue.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores natus rerum saepe. Eum modi assumenda quaerat temporibus.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, Vue.js, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio2.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio3.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio4.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio5.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio6.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptatem illo magni similique velit at mollitia corporis quaerat eaque asperiores.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+12) 345 678 910</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>youremail@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>123 Anywhere Street, Any City</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
