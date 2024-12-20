@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --main-color: #7cf03d;
+    --white-color: #fff;
+    --disabled-color: #fff3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+header nav a {
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-left: 3.5rem;
+    transition: 0.5s;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: var(--main-color);
+}
+
+/* Photography Section */
+.photography {
+    padding: 10rem 9% 2rem;
+    text-align: center;
+}
+
+.photography .heading {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.photography .heading span {
+    color: var(--main-color);
+}
+
+/* Gallery Grid */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.modal .caption {
+    margin-top: 1rem;
+    color: var(--main-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.modal .close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.modal .close:hover {
+    color: var(--main-color);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2rem 4%;
+    }
+
+    .photography {
+        padding: 10rem 4% 2rem;
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .modal .caption {
+        font-size: 1.6rem;
+    }
+}
